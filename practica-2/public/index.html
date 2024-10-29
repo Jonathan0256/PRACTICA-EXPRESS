@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Nou Cotxe</title>
+</head>
+<body>
+    <h1>Crear Nou Cotxe</h1>
+    <form action="/cars" method="POST">
+        <label for="marca">Marca:</label>
+        <input type="text" id="marca" name="marca"><br>
+
+        <label for="model">Model:</label>
+        <input type="text" id="model" name="model"><br>
+        
+        <label for="any">Any de Fabricació:</label>
+        <input type="number" id="any" name="any"><br>
+
+        <label for="esElectric">És elèctric:</label>
+        <input type="checkbox" id="esElectric" name="esElectric"><br>
+
+        <label for="imatge">Imatge (URL):</label>
+        <input type="url" id="imatge" name="imatge"><br>
+
+        <input type="submit" value="Crear Cotxe">
+    </form>
+    <br>
+    <a href="/cars">Mira la llista de Cotxes</a>
+</body>
+</html>
